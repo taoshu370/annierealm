@@ -51,9 +51,9 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Press+Start+2P&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
       </head>
-      <body className="antialiased">
+      <body className="antialiased overflow-x-hidden">
         <Header />
-        <main className="pt-16 md:pt-20">{children}</main>
+        <main className="pt-16 md:pt-20 overflow-x-hidden">{children}</main>
         <Footer />
       </body>
     </html>
