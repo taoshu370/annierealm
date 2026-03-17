@@ -1,0 +1,21 @@
+[
+  {
+    "slug": "welcome-to-annierealm",
+    "title": "Welcome to AnnieRealm",
+    "excerpt": "A quick introduction to this space where I share game design thoughts, devlogs, and experiments.",
+    "category": "Devlog",
+    "readTime": "2 min read",
+    "date": "2024-01-15",
+    "content": "Welcome to AnnieRealm! This is where I document my journey as a game designer and developer.\n\nI believe games are at their best when art and code work together — when the visuals aren't just decoration, but part of how the game thinks.\n\nHere you'll find devlogs, design notes, art breakdowns, and experiments that escaped my notebook. Thanks for visiting!"
+  },
+  {
+    "slug": "design-process-thoughts",
+    "title": "Design Process Thoughts",
+    "excerpt": "Some reflections on how I approach game design, balancing creativity with structure.",
+    "category": "Design",
+    "readTime": "5 min read",
+    "date": "2024-01-20",
+    "content": "I like to think of game design as a conversation between two minds: the Right Brain (art, feel, atmosphere) and the Left Brain (systems, mechanics, architecture).\n\nThe fun part is making them disagree until something interesting happens.\n\nWhen I start a new project, I usually begin with either a mood or a mechanic. Sometimes it's a feeling I want to capture. Sometimes it's a system I want to explore. The key is letting both sides of the process inform each other."
+  }
+]
+
