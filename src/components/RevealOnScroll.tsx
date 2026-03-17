@@ -24,15 +24,15 @@ export default function RevealOnScroll({
   const getInitialPosition = () => {
     switch (direction) {
       case "up":
-        return { y: 80, opacity: 0 };
+        return { y: 40, opacity: 0 };
       case "down":
-        return { y: -80, opacity: 0 };
+        return { y: -40, opacity: 0 };
       case "left":
-        return { x: 80, opacity: 0 };
+        return { x: 40, opacity: 0 };
       case "right":
-        return { x: -80, opacity: 0 };
+        return { x: -40, opacity: 0 };
       default:
-        return { y: 80, opacity: 0 };
+        return { y: 40, opacity: 0 };
     }
   };
 
