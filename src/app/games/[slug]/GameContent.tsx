@@ -104,13 +104,18 @@ export default function GameContent({ game, relatedGames }: GameContentProps) {
 
                 <div className="flex flex-wrap gap-3">
                   {game.playLink && (
-                    <Button href={game.playLink} variant="primary">Play Now</Button>
+                    <Button href={game.playLink} variant="primary">Play on itch.io ↗</Button>
                   )}
                   {game.trailerLink && (
                     <Button href={game.trailerLink} variant="cyan">Watch Trailer ↗</Button>
                   )}
                   <Button href="/games" variant="ghost">← All Games</Button>
                 </div>
+                {game.engine && (
+                  <p className="mt-4 text-sm text-text-muted font-mono">
+                    <span className="text-accent-purple">Engine:</span> {game.engine}
+                  </p>
+                )}
               </div>
             </RevealOnScroll>
 

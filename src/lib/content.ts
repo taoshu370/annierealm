@@ -31,6 +31,7 @@ export interface Game {
   endingImages?: MediaItem[];
   screenshots?: string[];
   lessons?: string[];
+  engine?: string;
   links?: { label: string; url: string }[];
   credits?: {
     text: string;
